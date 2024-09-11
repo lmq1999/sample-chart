@@ -1,15 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  annotations:
-    meta.helm.sh/release-name: bke-monitor
-    meta.helm.sh/release-namespace: monitor
     prometheus.io/scrape: "true"
-  creationTimestamp: "2024-07-10T02:39:23Z"
   labels:
     app.kubernetes.io/component: metrics
     app.kubernetes.io/instance: bke-monitor
-    app.kubernetes.io/managed-by: Helm
     app.kubernetes.io/name: kube-state-metrics
     app.kubernetes.io/part-of: kube-state-metrics
     app.kubernetes.io/version: 2.12.0
