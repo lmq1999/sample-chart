@@ -3,6 +3,16 @@ entries:
   kube-node-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-11T04:39:08.073200236Z"
+    description: A Helm chart for Kubernetes
+    digest: 665dad4a8360de19a8aef6ac3ed69fee22daec6e1c12376c8ca735255e98d13e
+    name: kube-node-exporter
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/kube-node-exporter-0.1.3/kube-node-exporter-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-11T04:29:05.656699218Z"
     description: A Helm chart for Kubernetes
     digest: a63175116903b7fdc9421b9d8122f1e3303585950cbedbf27402b7b6394b2fad
@@ -34,6 +44,16 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-11T04:39:08.191578289Z"
+    description: A Helm chart for Kubernetes
+    digest: 11127b68272bb3e0f209d2faacefca0bf0895c8264acea84dfdf17c3abeb4b36
+    name: kube-state-metrics
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/kube-state-metrics-0.1.3/kube-state-metrics-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-11T04:29:05.858664821Z"
     description: A Helm chart for Kubernetes
     digest: f238f5dac673a7b3ef1f62460e3b7fe5f0b28b1c6c3fda3c1b6bd49b248a6ab6
@@ -62,4 +82,4 @@ entries:
     urls:
     - https://github.com/lmq1999/sample-chart/releases/download/kube-state-metrics-0.1.0/kube-state-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-11T04:29:05.85868588Z"
+generated: "2024-09-11T04:39:08.19164502Z"
