@@ -82,4 +82,26 @@ entries:
     urls:
     - https://github.com/lmq1999/sample-chart/releases/download/kube-state-metrics-0.1.0/kube-state-metrics-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-11T04:39:08.19164502Z"
+  kube-vmagent:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-11T07:15:46.87551081Z"
+    description: A Helm chart for Kubernetes
+    digest: 46e6302a93de23a8ee1c698153881c138d71b84de163261a518e5c6a32b80912
+    name: kube-vmagent
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/kube-vmagent-0.1.0/kube-vmagent-0.1.0.tgz
+    version: 0.1.0
+  promtail:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-11T07:15:46.983274168Z"
+    description: A Helm chart for Kubernetes
+    digest: 7f516c6681b6b49b8c4a1f40d586eb9815c7d5bf99fd1f37b23bbc45efcc38cc
+    name: promtail
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/promtail-0.1.0/promtail-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-09-11T07:15:46.983299966Z"
