@@ -1,0 +1,3 @@
+mimir_bearer_token: xxxxxx
+mimir_url: xxxxx
+cluster_name: test-obs-helm 
