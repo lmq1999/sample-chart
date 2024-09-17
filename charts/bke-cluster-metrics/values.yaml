@@ -1,0 +1,11 @@
+kube-node-exporter:
+  enabled: true
+
+kube-state-metrics:
+  enabled: true
+
+kube-vmagent:
+  enabled: true
+  mimir_bearer_token: xxxx
+  mimir_url: xxxxxx
+  cluster_name: xxxx
