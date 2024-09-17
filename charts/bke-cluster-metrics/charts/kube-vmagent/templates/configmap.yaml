@@ -251,7 +251,7 @@ data:
       kubernetes_sd_configs:
       - namespaces:
           names:
-          - default
+          - bke-cluster-metrics
         role: endpoints
       metrics_path: /metrics
       relabel_configs:
@@ -319,7 +319,7 @@ data:
       kubernetes_sd_configs:
       - namespaces:
           names:
-          - bke-obs-stack
+          - bke-cluster-metrics
         role: endpoints
       metrics_path: /metrics
       relabel_configs:
