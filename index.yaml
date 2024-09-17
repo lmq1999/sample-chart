@@ -3,6 +3,16 @@ entries:
   bke-cluster-log:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-17T06:50:15.596879186Z"
+    description: A Helm chart for Kubernetes
+    digest: 7a30e1e9d9a97a1387de59c154a9dab28107c23b48e30b809bc24a288759af6b
+    name: bke-cluster-log
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/bke-cluster-log-1.0.1/bke-cluster-log-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-17T02:31:18.755604011Z"
     description: A Helm chart for Kubernetes
     digest: 387f5c5328676e006231a00728d45e5d5966fe563e1d6f9db6b0b2b58c80009e
@@ -12,6 +22,16 @@ entries:
     - https://github.com/lmq1999/sample-chart/releases/download/bke-cluster-log-0.1.1/bke-cluster-log-0.1.1.tgz
     version: 0.1.1
   bke-cluster-metrics:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-17T06:50:15.715030048Z"
+    description: A Helm chart for Kubernetes
+    digest: 588d4e542362adf0815f639316195349f0f4210e84e11b90f35498bbdb3b69d0
+    name: bke-cluster-metrics
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/bke-cluster-metrics-1.0.1/bke-cluster-metrics-1.0.1.tgz
+    version: 1.0.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-09-17T02:28:10.027617635Z"
@@ -136,4 +156,4 @@ entries:
     urls:
     - https://github.com/lmq1999/sample-chart/releases/download/promtail-0.1.0/promtail-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-17T02:31:18.755659025Z"
+generated: "2024-09-17T06:50:15.715058451Z"
