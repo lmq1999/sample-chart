@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  bke-cluster-metrics:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-09-17T02:28:10.027617635Z"
+    description: A Helm chart for Kubernetes
+    digest: 6985371e7d07aff29e56c001eae9f5c8a82f4da214a2211e84ffa983861bf674
+    name: bke-cluster-metrics
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/bke-cluster-metrics-0.1.1/bke-cluster-metrics-0.1.1.tgz
+    version: 0.1.1
   kube-node-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -96,6 +107,16 @@ entries:
   promtail:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-09-17T02:28:10.13617002Z"
+    description: A Helm chart for Kubernetes
+    digest: 668ec56431678a54b788f8c48c844a515f362e77e191df1967dd684e9e7b3f3d
+    name: promtail
+    type: application
+    urls:
+    - https://github.com/lmq1999/sample-chart/releases/download/promtail-0.1.1/promtail-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-09-11T07:15:46.983274168Z"
     description: A Helm chart for Kubernetes
     digest: 7f516c6681b6b49b8c4a1f40d586eb9815c7d5bf99fd1f37b23bbc45efcc38cc
@@ -104,4 +125,4 @@ entries:
     urls:
     - https://github.com/lmq1999/sample-chart/releases/download/promtail-0.1.0/promtail-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-11T07:15:46.983299966Z"
+generated: "2024-09-17T02:28:10.136222828Z"
