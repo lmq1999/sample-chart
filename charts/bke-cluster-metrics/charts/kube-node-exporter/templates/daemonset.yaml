@@ -5,7 +5,7 @@ metadata:
     app.kubernetes.io/component: metrics
     app.kubernetes.io/instance: bke-monitor
   name: bke-monitor-prometheus-node-exporter
-  namespace: bke-obs-stack
+  namespace: bke-cluster-log
 spec:
   selector:
     matchLabels:

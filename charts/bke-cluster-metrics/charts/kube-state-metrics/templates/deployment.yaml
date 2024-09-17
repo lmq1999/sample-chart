@@ -6,7 +6,7 @@ metadata:
     app.kubernetes.io/instance: bke-monitor
     app.kubernetes.io/name: kube-state-metrics
   name: bke-monitor-kube-state-metrics
-  namespace: bke-obs-stack
+  namespace: bke-cluster-log
 spec:
   progressDeadlineSeconds: 600
   replicas: 1

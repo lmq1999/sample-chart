@@ -5,7 +5,7 @@ metadata:
     app.kubernetes.io/instance: bke-monitor
     app.kubernetes.io/name: victoria-metrics-agent
   name: bke-monitor-victoria-metrics-agent
-  namespace: bke-obs-stack
+  namespace: bke-cluster-log
 spec:
   replicas: 1
   selector:

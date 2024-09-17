@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: promtail-config
-  namespace: bke-obs-stack
+  namespace: bke-cluster-log
 data: 
   promtail.yaml: |
     server:

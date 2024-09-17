@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: node-exporter
-  namespace: bke-obs-stack
+  namespace: bke-cluster-log
   annotations:
     prometheus.io/scrape: 'true'
     prometheus.io/port:   '9100'
