@@ -389,4 +389,4 @@ metadata:
     app.kubernetes.io/instance: bke-monitor
     app.kubernetes.io/name: victoria-metrics-agent
   name: bke-monitor-victoria-metrics-agent-config
-  namespace: bke-cluster-log
+  namespace: bke-cluster-metrics
