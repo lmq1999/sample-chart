@@ -6,4 +6,4 @@ metadata:
     app.kubernetes.io/component: metrics
     app.kubernetes.io/instance: bke-monitor
   name: bke-monitor-prometheus-node-exporter
-  namespace: bke-cluster-log
+  namespace: bke-cluster-metrics

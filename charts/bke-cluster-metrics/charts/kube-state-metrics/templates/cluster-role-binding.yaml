@@ -13,4 +13,4 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: bke-monitor-kube-state-metrics
-  namespace: bke-cluster-log
+  namespace: bke-cluster-metrics

@@ -252,6 +252,8 @@ data:
       - namespaces:
           names:
           - bke-cluster-metrics
+          - default
+          - bke-cluster-logs
         role: endpoints
       metrics_path: /metrics
       relabel_configs:
